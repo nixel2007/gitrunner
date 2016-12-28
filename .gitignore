@@ -1,1 +1,4 @@
+.sonar
+.sonarlint
+coverage
 exec.log
