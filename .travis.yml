@@ -14,12 +14,10 @@ before_install:
       sh -e /etc/init.d/xvfb start;
       sleep 3;
     fi
-  - wget -O os.deb http://oscript.io/downloads/latest/deb
+  - wget -O os.deb http://oscript.io/downloads/night-build/deb
   - sudo apt-get install mono-complete mono-devel
   - sudo dpkg -i os.deb; sudo apt install -f
   - sudo oscript /usr/share/oscript/lib/opm/src/opm.os install opm
-  - wget https://ci.appveyor.com/api/projects/dmpas/onescript/artifacts/oscript.zip?branch=feature/codestat --output-document oscript.zip
-  - sudo unzip -o oscript.zip -d /usr/share/oscript/bin
   - oscript
 
 install: 
