@@ -2,3 +2,4 @@
 .sonarlint
 coverage
 exec.log
+sonarlint.json
