@@ -11,7 +11,7 @@
             "taskName": "Exec all features",
             "args": [
                 "|",
-                "bdd",
+                "1bdd",
                 "${workspaceRoot}/features",
                 "-fail-fast",
                 "-out",
@@ -36,7 +36,7 @@
             "taskName": "Exec feature",
             "args": [
                 "|",
-                "bdd",
+                "1bdd",
                 "${file}",
                 "-fail-fast",
                 "-out",
@@ -62,7 +62,7 @@
             "taskName": "Exec feature + debug",
             "args": [
                 "|",
-                "bdd",
+                "1bdd",
                 "${file}",
                 "-fail-fast",
                 "-verbose",
@@ -88,7 +88,7 @@
             "taskName": "Generate feature steps",
             "args": [
                 "|",
-                "bdd",
+                "1bdd",
                 "gen",
                 "${file}",
                 // "-verbose", 
@@ -114,7 +114,7 @@
             "taskName": "Generate feature steps + debug",
             "args": [
                 "|",
-                "bdd",
+                "1bdd",
                 "gen",
                 "${file}",
                 "-verbose",
