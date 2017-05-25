@@ -13,7 +13,7 @@ if [ "$TRAVIS_SECURE_ENV_VARS" == "true" ]; then
         -Dsonar.analysis.mode=issues \
         -Dsonar.github.pullRequest=$TRAVIS_PULL_REQUEST \
         -Dsonar.github.repository=$TRAVIS_REPO_SLUG \
-        -Dsonar.github.oauth=$GITHUB_TOKEN \
+        -Dsonar.github.oauth=$SONAR_GITHUB_TOKEN \
         -Dsonar.login=$SONAR_TOKEN \
         -Dsonar.scanner.skip=false
 
