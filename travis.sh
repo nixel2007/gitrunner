@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 oscript /usr/share/oscript/lib/opm/src/opm.os run coverage
 
