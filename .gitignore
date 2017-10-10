@@ -3,3 +3,5 @@
 coverage
 exec.log
 sonarlint.json
+
+junit-bdd\.xml
