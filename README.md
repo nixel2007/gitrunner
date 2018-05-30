@@ -1,3 +1,5 @@
+<p align="center"><img src="logo/vertical.png" alt="gitrunner" height="200px"></p>
+
 # gitrunner
 
 [![Quality Gate](https://sonar.silverbulleters.org/api/badges/gate?key=gitrunner)](https://sonar.silverbulleters.org/component_measures/?id=gitrunner)
