@@ -2,9 +2,6 @@
 
 # gitrunner
 
-[![Quality Gate](https://sonar.silverbulleters.org/api/badges/gate?key=gitrunner)](https://sonar.silverbulleters.org/component_measures/?id=gitrunner)
-[![Quality Gate](https://sonar.silverbulleters.org/api/badges/measure?key=gitrunner&metric=coverage&blinking=true)](https://sonar.silverbulleters.org/component_measures/?id=gitrunner)
-
 ## Библиотека для упрощения работы с git из oscript.
 
 Позволяет выполнять рутинные операции с репозиторием в стиле [v8runner](https://github.com/oscript-library/v8runner).
