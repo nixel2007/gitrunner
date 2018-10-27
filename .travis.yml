@@ -14,7 +14,7 @@ before_install:
       sh -e /etc/init.d/xvfb start;
       sleep 3;
     fi
-  - wget -O os.deb http://oscript.io/downloads/1_0_17/onescript-engine_1.0.17_all.deb
+  - wget -O os.deb https://files.gitter.im/EvilBeaver/OneScript/VreX/onescript-engine_1.0.17_all.deb
   - sudo apt-get install mono-complete mono-devel
   - sudo dpkg -i os.deb; sudo apt install -f
   - oscript
