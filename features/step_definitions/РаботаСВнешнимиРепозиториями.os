@@ -1,4 +1,7 @@
-﻿// Реализация шагов BDD-фич/сценариев c помощью фреймворка https://github.com/artbear/1bdd
+﻿// BSLLS:MissingReturnedValueDescription-off
+// BSLLS:MissingParameterDescription-off
+
+// Реализация шагов BDD-фич/сценариев c помощью фреймворка https://github.com/artbear/1bdd
 
 #Использовать asserts
 
